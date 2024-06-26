@@ -14,3 +14,10 @@ print(address[-3:-1])
 print(address[0:])
 print(address[:-1])
 print(address[:])
+
+# 4- Concatenation
+country = "Kenya"
+city = "Nairobi"
+full_city = city + "," + country
+print(full_city)
+
