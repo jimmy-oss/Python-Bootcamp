@@ -30,3 +30,21 @@ print(city.lower())
 # 7- Title The first letter of the strings becomes capital
 print(full_city.title())
  
+# 8- Strip() what it does is to remove empty spaces from the 
+# beginning and end of a string
+# Using strip you could also strip left and right
+job = "     Programmer   "
+print(job)
+print(job.strip())
+print(job.lstrip())
+print(job.rstrip())
+
+# 9- Find()
+# It can be used to find sequence of a character
+print(address.find("n"))
+print(address.find("y"))
+
+# 10- replace()
+# It can be used to replace a character in a sequence
+print(address.replace("n", "N"))
+print(address)
