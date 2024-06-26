@@ -21,3 +21,12 @@ city = "Nairobi"
 full_city = city + "," + country
 print(full_city)
 
+# 5- Upper
+print(address.upper())
+
+# 6- Lower
+print(city.lower())
+
+# 7- Title The first letter of the strings becomes capital
+print(full_city.title())
+ 
