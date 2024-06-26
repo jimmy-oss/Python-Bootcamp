@@ -48,3 +48,13 @@ print(address.find("y"))
 # It can be used to replace a character in a sequence
 print(address.replace("n", "N"))
 print(address)
+
+# 11- in operator
+#It is used to check a character or a sequence of a character exists
+#print("zy" in address)
+#print("ya" in address)
+
+# 12- ! not operator
+# The inequality operator It is used to check a character or a sequence of a character does not exists
+print("zy" not in address)
+print("ya" not in address)
