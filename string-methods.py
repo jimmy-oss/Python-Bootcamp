@@ -15,11 +15,13 @@ print(address[0:])
 print(address[:-1])
 print(address[:])
 
-# 4- Concatenation
+# 4- Concatenation --- Formatted Strings
 country = "Kenya"
 city = "Nairobi"
-full_city = city + "," + country
+#full_city = city + "," + country
+full_city = f"{city},{country}"
 print(full_city)
+
 
 # 5- Upper
 print(address.upper())
