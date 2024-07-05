@@ -17,16 +17,21 @@
 print("Welcome to my Fortune-telling Shop😊")
 print("To continue please feel free to ask any question....")
 print("To continue choose Yes or No")
+input()
 choice_one = "yes"
 choice_two = "no"
 if choice_two != "no" :
    print("Ohh sorry I guess your not ready for fortune telling😔")
 elif choice_one == "yes":
-   print("You chose yes ask what your question is?", input())
-   print("...mmh wow my magic crystal has provided your lucky number that your seeking")
-   print("Do you wish to continue remember with great fortune comes with a great responsibility")
+   print("You chose yes ask what your question is?")
+   input()
+   print("...mmh wow my magic crystal has provided me your lucky number that your seeking!")
+   print("Do you wish to continue remember with great fortune comes with a great responsibilities")
+   input()
+if choice_one == "yes":
+   print("Type your lucky number")
    print(input())
-elif choice_one == "yes":
+if choice_one == "yes":
   choice_one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   for i in choice_one:
     if i % 2 == 0:
