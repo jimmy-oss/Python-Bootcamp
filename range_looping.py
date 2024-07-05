@@ -16,7 +16,7 @@ print(list_a)
 
 # Another use of range()
 for i in range(0,7):
-  print("I would love" + str(i) + "chapatis")
+  print("I would love" + " " + str(i) +" "+ "chapatis")
   
 # In here we created a loop that prints out the string
 # I would love chapatis with the number of chapatis
