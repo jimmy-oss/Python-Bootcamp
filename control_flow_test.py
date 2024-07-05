@@ -25,7 +25,7 @@ if choice_two != "no" :
 elif choice_one == "yes":
    print("You chose yes ask what your question is?")
    input()
-   print("...mmh wow my magic crystal has provided me your lucky number that your seeking!")
+   print("...mmh wow my magic crystal has provided me your lucky number that you are seeking!")
    print("Do you wish to continue remember with great fortune comes with a great responsibilities")
    input()
 if choice_one == "yes":
@@ -35,12 +35,13 @@ if choice_one == "yes":
   choice_one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   for i in choice_one:
     if i % 2 == 0:
-      print("If you chose an even number your going to be wealthy", i)
-      if i % 3 == 1:
-        print("If you chose an odd number you are a hardworking person and you are so caring", i)
+      print("If you chose an even number that is" + " " + str(i) + " " +  "your going to be wealthy")      
+elif choice_two != "no":
+   choice_one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   for f in choice_one:
+     if f % 2 != 0:
+       print("If you chose an odd number that is" + " " + str(f) + " " + "you are a hardworking person and you are so caring")
 
-else:
-  if choice_two != "no":
-   print("Ohh sorry I guess your not ready for fortune telling😔")
+ 
  
   
