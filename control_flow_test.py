@@ -26,6 +26,7 @@ elif user_choice == "yes":
     input()
     print("...mmh wow my magic crystal has provided me your lucky number that you are seeking!")
     print("Do you wish to continue remember with great fortune comes with a great responsibilities")
+    print("To continue choose Yes or No")
     user_choice = input().lower()
     if user_choice == "yes":
         print("Type your lucky number")
