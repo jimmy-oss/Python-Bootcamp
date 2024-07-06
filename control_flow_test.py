@@ -36,9 +36,9 @@ if choice_one == "yes":
   for i in choice_one:
     if i % 2 == 0:
       print("If you chose an even number that is" + " " + str(i) + " " +  "your going to be wealthy")      
-elif choice_two != "no":
-   choice_one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-   for f in choice_one:
+if choice_two != "no":
+   choice_two = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   for f in choice_two:
      if f % 2 != 0:
        print("If you chose an odd number that is" + " " + str(f) + " " + "you are a hardworking person and you are so caring")
 
