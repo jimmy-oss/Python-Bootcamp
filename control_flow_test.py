@@ -17,31 +17,24 @@
 print("Welcome to my Fortune-telling Shop😊")
 print("To continue please feel free to ask any question....")
 print("To continue choose Yes or No")
-input()
-choice_one = "yes"
-choice_two = "no"
-if choice_two != "no" :
+user_choice = input().lower()
+
+if user_choice != "yes":
    print("Ohh sorry I guess your not ready for fortune telling😔")
-elif choice_one == "yes":
-   print("You chose yes ask what your question is?")
+elif user_choice == "yes":
+   print("You chose yes, ask what your question is?")
    input()
    print("...mmh wow my magic crystal has provided me your lucky number that you are seeking!")
    print("Do you wish to continue remember with great fortune comes with a great responsibilities")
-   input()
-if choice_one == "yes":
-   print("Type your lucky number")
-   print(input())
-if choice_one == "yes":
-  choice_one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-  for i in choice_one:
-    if i % 2 == 0:
-      print("If you chose an even number that is" + " " + str(i) + " " +  "your going to be wealthy")      
-if choice_two != "no":
-   choice_two = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-   for f in choice_two:
-     if f % 2 != 0:
-       print("If you chose an odd number that is" + " " + str(f) + " " + "you are a hardworking person and you are so caring")
-
- 
+   user_choice = input().lower()
+   if user_choice == "yes":
+       print("Type your lucky number")
+       lucky_number = int(input())
+       if lucky_number % 2 == 0:
+           print("If you chose an even number that is " +
+                 str(lucky_number) + " your going to be wealthy")
+       else:
+           print("If you chose an odd number that is " + str(lucky_number) +
+                 " you are a hardworking person and you are so caring")
  
   
