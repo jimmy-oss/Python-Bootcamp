@@ -41,3 +41,32 @@ birthday = {"John": "August 1","Marcus":"April 8","Mary":"September 14"}
 print(list(birthday.keys()))  # this prints ['John', 'Marcus', 'Mary']
 
 # Setdefault() method
+# When dealing with a dictionary,sometimes it can be useful
+# to set placeholder values to keys,before we do any operation
+# on them to prevent unnecessary errors
+# We want to create an application that counts every character in
+# an input string
+print("Enter a string")
+input_string = input()
+characters = {}
+# We prompt the user for an input.Then we create an empty dictionary
+# named characters that will store each individual character and how
+# many times it been used.Now let's use setdefault()
+print("Enter a String")
+input_string = input()
+characters = {}
+for character in input_string:
+  characters.setdefault(character,0)
+# Here we use a for loop to iterate through each individual character
+# in the string.Then we use the setdefault() method to create a key for
+# each character if the character does not exist in the dictionary.Then we
+# set the default value for each as 0
+print("Enter a String")
+input_string = input()
+characters = {}
+for character in input_string:
+  characters.setdefault(character,0)
+  characters[character] = characters[character] + 1
+  print(characters)
+# Lastly we target the key that matches the character and add one
+# to the value everytime the character is encountered
